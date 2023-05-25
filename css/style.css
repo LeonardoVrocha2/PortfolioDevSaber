@@ -13,7 +13,7 @@
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #000;
+    background-color: #000000;
 }
 
 /* Header */
@@ -27,7 +27,7 @@ header {
 }
 
 header h1 {
-    color: #dc3545;
+    color: #971cbd;
     font-size: 2.5rem;
 }
 
@@ -61,7 +61,7 @@ header .navegacao-primaria li a:hover::after {
     width: 100%;
     height: 0px;
     padding: 0px;
-    border-bottom: 4px solid #dc3545;
+    border-bottom: 4px solid #971cbd;
 }
 
 
@@ -162,7 +162,7 @@ main .sobre{
 
 .sobre_titulo h1{
     font-size:2.5rem;
-    color: #ff5d56;
+    color: #971cbd;
     margin-bottom: 15px;
     font-family: 'Berkshire Swash', cursive;
 }
@@ -185,7 +185,7 @@ main .sobre{
     width: 20px;
     height: 20px;
     border-radius:50%;
-    background-color: #dc3545;
+    background-color: #971cbd;
 }
 
 .sobre img{
@@ -223,7 +223,7 @@ main .sobre{
 }
 
 .sobre_texto h1::after{
-    background-color: #ff5d56;
+    background-color: #971cbd;
     height: 6px;
     width: 60px;
     margin: 20px 0;
@@ -248,7 +248,7 @@ main .sobre{
 }
 
 .sobre_info i{
-    color: #dc3545;
+    color: #971cbd;
     display: inline-block;
     padding-right: 15px;
     font-size: 1.5rem;
@@ -318,7 +318,7 @@ main .sobre{
 
 .my_service ul li i {
     font-size: 2.7rem;
-    color: #dc3545;
+    color: #971cbd;
 }
 
 .my_service ul li h3{
@@ -362,15 +362,15 @@ main .sobre{
 .my_service li:hover::before{
     width: 100%;
     height: 100%;
-    border-top: 2px solid red;
-    border-right: 2px solid red;
+    border-top: 2px solid #971cbd;
+    border-right: 2px solid #971cbd;
 }
 
 .my_service li:hover::after{
     width: 100%;
     height: 100%;
-    border-bottom: 2px solid red;
-    border-left: 2px solid red;
+    border-bottom: 2px solid #971cbd;
+    border-left: 2px solid #971cbd;
 }
 
 
@@ -394,7 +394,7 @@ main .sobre{
 .resume_generica h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    background-color: #ff5d56;
+    background-color: #971cbd;
     justify-self: start;
     padding: 10px;
     border-radius: 3px;
@@ -418,7 +418,7 @@ main .sobre{
 }
 
 .experience_content ul {
-    color: #ff5d56;
+    color: #971cbd;
     gap: 10px;
     display: flex;
     cursor: pointer;
@@ -452,7 +452,7 @@ main .sobre{
 }
 
 .resume_generica .experience_content div span{
-    color: #dc3545;
+    color: #971cbd;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
@@ -488,7 +488,7 @@ main .sobre{
 
 
 .education_content ul {
-    color: #ff5d56;
+    color: #971cbd;
     gap: 10px;
     display: flex;
     cursor: pointer;
@@ -507,7 +507,7 @@ main .sobre{
 }
 
 .resume_generica .education_content div span{
-    color: #dc3545;
+    color: #971cbd;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     
@@ -545,7 +545,7 @@ main .sobre{
     padding: 10px 30px;
     border-radius: 3px;
     text-transform: uppercase;
-    background-color: #ff5d56;
+    background-color: #971cbd;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 30px;
@@ -587,7 +587,7 @@ main .sobre{
     padding: 10px 30px;
     border-radius: 3px;
     text-transform: uppercase;
-    background-color: #ff5d56;
+    background-color: #971cbd;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 30px;
@@ -621,7 +621,7 @@ main .sobre{
     margin: auto;
     padding: 20px;
     font-size: 2rem;
-    color: #ff5d56;
+    color: #971cbd;
     border-right: 2px solid #3e3d3d;
 }
 
@@ -666,7 +666,7 @@ main .sobre{
 }
 
 .projects_models ul li.active {
-    background-color: #dc3545;
+    background-color: #971cbd;
     color: #151515;
     font-weight: bold;
 }
