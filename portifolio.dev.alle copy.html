@@ -33,7 +33,7 @@
                 Curso Mastering Python pela FIAP, (12/11/2022) concluído e possuo conhecimento intermediário no sistema FRONT-END, HTML & JAVASCRIPT e DJANGO WEB DEVELOPMENT.
                 </p>
             <head>
-                <title>Link Download</Link></title>
+                <title>Link Download</title>
                 <link real="stylesheet" href="style.css">
             </head>
             <body>
@@ -97,26 +97,37 @@
                 <ul aria-label="Navegação secundaria">
                     <li>
                         <div>
-                            <img src="img/github.svg" alt="ilustration image" width="100">
+                            <a href="javascript:void(0);" onclick="redirectTo('https://github.com/AlleSilvaa')">
+                                <img src="img/github.svg" alt="ilustration image" width="100">
+                                <h3>GitHub</h3>
+                                <p>Uma plataforma que permite que o usuário cadastrado na plataforma contribuam em projetos privados ou de qualquer lugar do mundo.</p>
+                            </a>
                         </div>
-                        <h3>GitHub</h3>
-                        <p>Uma plataforma que permite que o usuário cadastrado na plataforma contribuam em projetos privados ou de qualquer lugar do mundo.</p>
                     </li>
                     <li>
                         <div>
-                            <img src="img/instagram.svg" alt="ilustration image" width="100">
+                            <a href="javascript:void(0);" onclick="redirectTo('https://www.instagram.com/allesson_oliv/')">
+                                <img src="img/instagram.svg" alt="ilustration image" width="100">
+                                <h3>Instagram</h3>
+                                <p>Uma rede social com foco em conteúdos visuais, principalmente imagens.</p>
+                            </a>
                         </div>
-                        <h3>Instagram</h3>
-                        <p>Uma rede social com foco em conteúdos visuais, principalmente imagens.</p>
                     </li>
                     <li>
                         <div>
-                            <img src="img/linkedin.svg" alt="ilustration image" width="100">
+                            <a href="javascript:void(0);" onclick="redirectTo('https://www.linkedin.com/in/allesson-augusto-silva-39624924b')">
+                                <img src="img/linkedin.svg" alt="ilustration image" width="100">
+                                <h3>LinkedIn</h3>
+                                <p>Uma plataforma de mídia social focada em negócios e emprego que funciona através de sites e aplicativos móveis.</p>
+                            </a>
                         </div>
-                        <h3>Linkedin</h3>
-                        <p>Uma plataforma de mídia social focada em negócios e emprego que funciona através de sites e aplicativos móveis.</p>
                     </li>
                 </ul>
+                <script>
+                    function redirectTo(url) {
+                        window.location.href = url;
+                    }
+                </script>
             </div>
     </section>
     <div class="my_resume">
